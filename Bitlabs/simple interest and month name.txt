@@ -1,0 +1,38 @@
+start/begin
+step 1:read P,T,R
+step 2:SI=P*T*R
+step 3:display SI
+stop/end
+
+
+start/begin
+step 1:read any month number
+step 2:n=month number
+        if(n==1)
+          print ("january")
+        else if(n==2)
+          print("february")
+        else if(n==3)
+          print("march")
+        else if(n==4)
+          print("april")
+        else if(n==5)
+          print("may")     
+        else if(n==5)
+          print("may")     
+        else if(n==6)
+          print("june")     
+        else if(n==7)
+          print("july")     
+        else if(n==8)
+          print("august")     
+        else if(n==9)
+          print("september")     
+        else if(n==10)
+          print("october")     
+        else if(n==11)
+          print("november")     
+        else if(n==12)
+          print("december")
+        else print("the given number is exceeded")
+step 3:stop

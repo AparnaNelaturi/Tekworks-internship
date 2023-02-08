@@ -1,0 +1,244 @@
+
+start
+step1:Display "prizes of 4 products"
+step2:p1,p2,p3,p4
+step3:print sum=p1+p2+p3+p4
+step4:print sum
+step5:if sum<500
+step6:print sum=sum+(sum*10)/100
+step7:if sum<1000
+step8:print sum=sum+(sum*20)/100
+stop
+
+
+start
+step 1:s=0,read any number say a
+step 2:while(a>0)
+{
+digit=a%10;
+a=a/10;
+{
+if(a%2==0)
+print(a)
+else
+print(a)
+
+E-LIBRARY MANAGEMENT SYSTEM
+
+start
+step 1:login to E-library
+1.Administrator
+2.Student
+3.staff
+case 1:if(administrator login==1)
+{
+disply menu as follows
+1.add book
+2.remove book
+}
+else
+{
+print("your login credentials are invalid")
+}
+case 2:if(student login==1)
+{
+display menu like as follows
+1.view book
+2.search book
+}
+else
+{
+print("tour login credentials are invalid")
+}
+case 3:if(staff login==1)
+{
+display menu like as follows
+1.view book
+2.add book
+3.search book
+}
+else
+{
+print("your login credentiala are invalid")
+}
+if (return book<=one week)
+{
+print("no need to pay for book")
+}
+else
+{
+print("you need to pay Rs.500")
+}
+step 4:stop
+
+
+ATM CARD TRANSACTION ALGORITHM
+
+
+start
+step 1:insert the ATM card
+ if(card number==1)
+{
+   display the holder name
+}
+ else print("your card is not valid")
+step 2:select the language
+ 1. telugu
+ 2. english
+ 3. hindi
+stetp 3:enter your PIN
+   if(pin==1)
+     {
+      print("\n welcome to ATM services")
+      print("\n 1.Check balance")
+      print("\n 2.Cash withdrawl")
+      print("\n 3.Deposit cash")
+      print("\n 4.Quit")
+     }
+case 1:CHECK THE BALANCE
+     print("\n Your balance is Rs.xxxx")
+break ;
+case 2:WITHDRAWL
+     print("Enter the amount:")
+       if(amount%100!=0)
+  {
+    print("please enter the amount in multiple of 100")
+  }
+       else 
+        if(amount>actual balance)
+{
+    print("\n insufficient balance")
+}
+        else
+{
+ actual balance = actual balance-withdrawl
+ print("collect your amount")
+ print("your balance is Rs.",actual balance)
+}
+case 3: DEPOSIT
+print("enter the amount to deposit")
+actual balance = actual balance+deposit
+print("your balance is Rs.",actual balance)
+break;
+case 4: QUIT
+print("Thank you for visiting")
+default;
+print("invalid choice")
+}
+else 
+   print("the PIN you entered is incorrect")
+step 4: take out your card
+stop
+
+
+
+MEAL ADD GST AND TIP
+start 
+step 1:read meal price say p,GST,tip say t
+step 2:if(p<1000)
+{
+display no GST and no t
+}
+else if(p>=1000 && p<2000)
+{
+step :GST=(p*5)/100
+step :t=(p*1)/100
+total bill=p+GST+t
+}
+else if(p>2000 && p<10000)
+{
+step :GST=(p*10)/100
+step :t=(p*6)/100
+total bill=p+GST+t
+}
+
+
+IN AN AMOUNT HOW MANY 10 Rs NOTES AND HOW MANY 20 RS. NOTES ARE REQUIRED
+
+start
+step 1: read required notes for the amount say n,amount
+case 1: for 10 Rs notes
+s = amount/10
+display s
+case 2: for 20 Rs notes
+a = amount/20
+display a
+stop
+
+
+THE GIVEN  NUMBER IS +VE OR -VE OR 0
+
+
+start
+step 1:read number say n
+step 2:if(n>0)
+{
+primt("given number is positive")
+}
+else if(n==0)
+{
+print("given number is zero")
+}
+else 
+{
+print("given number is negative")
+}
+stop
+
+
+
+LAST NUMBER OF THE GIVEN NUMBER IS DIVISIBLE BY 3 OR NOT 
+start 
+step 1:read given number as n,reminder as digit
+step 2:digit = n%10
+step 3:if(digit%3==0)
+{
+print("given number is multiple of 3")
+}
+else
+{
+print("not a multiple of 3")
+}
+
+
+CURRENT BILL
+
+start
+step 1: read no of units say n,bill
+step 2:if(n<100)
+{
+print("no bill")
+}
+else if(n>100 && n<200)
+{
+bill=n*2
+display bill
+}
+else (n>200)
+{
+bill=n*3
+display bill
+}
+end
+
+
+
+TO PRINT SERIES 1, 4, 7, 10
+
+start
+step 1:read number say i
+step 2:for(i=1;i<=n;i=i+3)
+       {
+         print(i)
+       }
+
+
+
+
+
+
+
+
+
+
+

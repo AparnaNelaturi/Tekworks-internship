@@ -1,0 +1,9 @@
+start
+step 1: i=1, n=10, s=0
+step 2:while(i<n)
+{
+s=s+X*2/i
+i=i+1
+}
+step 3:print s
+stop
