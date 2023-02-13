@@ -1,0 +1,18 @@
+start
+step1: read a,b,c
+step2:d=b2 4ac
+step3: if(d>0);
+          r1= b+ sqrt (d)/2*a
+         r2=b sqrt (d)/2*a
+  else
+         if(d=0)
+               r1=-b/2*a
+               r2= b/2*a
+step3: display " r1,r2"
+step4:  else if (d<0)
+            print( " roots are invaild equation")
+stop
+
+
+
+          

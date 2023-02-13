@@ -1,0 +1,14 @@
+start
+sttep1: read char
+step2: take a,e,i,o,u;
+stepp3: if char='a'
+                 char='e'
+                char='i'
+               char='o'
+              char='u'
+                 {
+                    print(" vowel")
+         else
+                print(" consonant")
+                 }
+stop

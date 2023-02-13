@@ -1,0 +1,9 @@
+start
+step1: read number n
+step2: if(n%2==0)
+            {
+              print(" it is the even enumber")
+    else
+             print("it is odd number")
+          }
+stop 

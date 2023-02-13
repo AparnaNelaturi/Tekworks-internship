@@ -1,0 +1,10 @@
+start
+step1: reead ch
+step2: if(ch>='a'&& ch<='z')
+            {
+              ptint(" ch is lower case")
+    else
+          if(ch<='A' && ch>='Z')
+                print(" it is UPPER CASE")
+            }
+STOP

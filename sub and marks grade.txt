@@ -1,0 +1,22 @@
+start
+srep1: read  ph,ch,bi,m,com,per ;
+step2: per=ph+ch+bi+m+com/5
+step3: if(per>=90)
+            {
+                print(" grade 'A')
+       else if (per>=80)
+              {
+                print("grade 'B')
+             if(per>=70)
+                print( grade 'C')
+          if(per>=60)
+             print(" grade 'D')
+         if(per>=40)
+            print ("garde 'E')
+      else 
+            print(" grade 'F')
+           }
+       }
+stop
+
+       

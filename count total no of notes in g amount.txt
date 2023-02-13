@@ -1,0 +1,22 @@
+start
+step1: read amount, note
+step2: take note =5000,10,1
+step3: if(amount>=500)
+           {
+             note500=amount/500
+              amount-=note500*500
+           }
+       displat "amount"
+  step4: if(amount>=100)
+            {
+              note100=amount/100
+               amount-= note100*100
+              }
+      display " amount"
+step5: if ("amount>=1)
+           {
+              note1=amount/1
+           }
+stop
+              
+            

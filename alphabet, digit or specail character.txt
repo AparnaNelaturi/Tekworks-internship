@@ -1,0 +1,15 @@
+start
+step1: read ch, num;
+step2: if(ch>='A' && ch<='Z')
+           {
+               print(" ch is alphabet")
+       else
+               if("ch>=0 && ch<=9)
+                {
+             print(" ch is a digit ")
+                }
+         else
+              print(" ch is special character")
+        }
+stop
+       
