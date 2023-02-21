@@ -1,0 +1,19 @@
+start
+step1: read any three numbers
+step2: take a,b,c
+step3: max=a
+step4:if(b>max)
+            max=b;
+      else if (c>max)
+       max=c;
+ step5: print "max";
+stop
+
+           
+  
+
+           
+
+        
+            
+             
