@@ -1,0 +1,43 @@
+    
+Why java is the platform independent?What are platform-dependent and platform-independent phases in javaWhat is the difference between static and nonstatic methods?Why do we need to use a collection object?How do-while loop executed and when to choose it in an applicationHow to apply encapsulation and when to use it in any project?Difference between overloading and overriding?Write the syntax for constructor overloading.Write the logic to convert a number to a word?
+    
+What is a final keyword in Java? (unrelavent  answer)What is the difference between an array and an array list?Differentiate between the constructors and methods in Java? (incorrect answer)What is the difference between a local variable, an instance variable, and a static variable? (incorrect answer)Will the compiler create the Default Constructor when we already have a Constructor defined in the class? .   (Answered but need confidence)Give a real-life example of data abstraction.   (Answered but need confidence)Differenece between abstract class and a class(unrelavent  answer)Give example for how to create an interface nad how to implement it?
+you have written as:
+class interface Language
+{
+}
+here interface never preceded with class keywprd
+Write logic for  to check wheather given number is prime number or not
+Written logic but not able to exaplin condtions used in program. 
+
+[11:00 AM] Srilatha Manam
+    
+Why java is the platform independent?What are platform-dependent and platform-independent phases in javaWhat is the difference between static and nonstatic methods?Why do we need to use a collection object?How do-while loop executed and when to choose it in an applicationHow to apply encapsulation and when to use it in any project?Difference between overloading and overriding?Write the syntax for constructor overloading.Write the logic to convert a number to a word?
+    
+What is a final keyword in Java? (unrelavent  answer)What is the difference between an array and an array list?Differentiate between the constructors and methods in Java? (incorrect answer)What is the difference between a local variable, an instance variable, and a static variable? (incorrect answer)Will the compiler create the Default Constructor when we already have a Constructor defined in the class? .   (Answered but need confidence)Give a real-life example of data abstraction.   (Answered but need confidence)Differenece between abstract class and a class(unrelavent  answer)Give example for how to create an interface nad how to implement it?
+you have written as:
+class interface Language
+{​​
+}​​
+here interface never preceded with class keywprd
+Write logic for  to check wheather given number is prime number or not
+Written logic but not able to exaplin condtions used in program. 
+
+    
+Explain public static void main(String ag[]) (Answered only public keyword)What are the main concepts of OOPs in Java?What is a JIT compiler in Java?What is the difference between SCP and heap?What is the difference between List and setWhat is the difference between equals() and == in Java?What are wrapper classes in Java?Give example for overriding. (Incorrect example)When to use Map object in any application?   (just answered what is Map)Write the logic to arrange the given list of alphabets in descending order.
+not able to write logic. 
+
+How is the difference between creating a  String using new() different from that of a literal?Why string objects are immutable? (Not able to answer)What are primitive and non-primitive data typesHow to convert a string into a long type? (incorrect answer)When to use for loop and when to use while loop(irrelevant answer)Write the syntax for creating an abstract class and how to implement it.When can you use the super keyword? (incorrect answer)Where is memory allocated for arrays in java?Write the logic to check whether every word in a given text has a minimum of 3 a’s or not.  (Written the logic)
+
+What is the use of main()Give some real-life exams [ple for polymorphismWhat is the use of a compilerList out classes that implement the List interfaceHow to create a custom exception?when to use finally block in any application? (incorrect method)How to create an array of type heterogenousWhat is the difference between an error and an exceptionShow the example, for instance, local and static variables.Write the logic  for:
+from the given two numbers check the position of which are having same digits if so find the sum of those digits. 
+
+What is the advantage of inheritanceWhat is the difference between throw and throws keyword? (incorrect answer)Tell me about the final keyword.Tell me the advantages of interfaces (incorrect answer)What is the use of a constructor ( irrelevant answer)How to use the properties of one class in another classWhat is this operator (incorrect answer)Write the example for method overloading.  (incorrect answer)Write the logic to find the square root of every digit in a given number.
+Your logic is wrong it will give the square root of a given number. 
+
+What is the difference between the finally and final keywords?How to call a superclass constructor in the child class?What is the condition we need to follow while using multiple catch blocks? (incorrect answer)Which classes will implement the set interface? (incorrect answer)Can we extend multiple interfaces in another interface (incorrect answer)Different static data members and non-static data members? (incorrect answer)Write an example for encapsulation. (not able to write example)Write the logic to get position numbers from the given text if there is a vowel in that position  (you are code will give the correct oputput but yooou can write optimistic code)
+
+What is the advantage of JVMCan we write more than one main () in any program / why it is not possible to override the main()? (incorrect answer)Difference between no argument constructor and default constructor (incorrect answer)how to implement an interface(incorrect answer)When to create a class as the abstract class( irrelevant answer)What is the difference between an identifier and a keyword (incorrect answer)Write the example for hierarchical inheritance.Write the logic to display each word in alphabetical order from a given text.
+(Irrelavent logic) 
+
+What are the advantages of OOPS?What are the advantages and disadvantages of arrays?What is the difference between static and dynamic polymorphism?What are the methods in StringTokenizert class? (irrelevant answer)In how many ways we can divide the given text into words? (Incorrect answer)Can we write a try block without a catch block? (Wrong answer)What is the advantage of handling exceptions?How to convert Integer data into a string data type. (not able to answer)Write the statement to generate an Exception if the given word not starting with the letter ‘a’. (not able to write a statement. Used charAt() directly without any object)Write the logic to all even numbers followed by odd numbers followed by 0’s

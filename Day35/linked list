@@ -1,0 +1,21 @@
+array list----> O(1) for serach and retrevive
+ 
+linkedlist list-----> O(n)for serach and retrevive
+ 
+arraylist------> O(n)----------> for insertion and deletion
+ 
+linkedlist------> O(1)----------> for insertion and deletion
+
+    
+add element
+insert element at first
+insert element at last
+get first element 
+get last element 
+remove first element 
+remove last element
+    LinkedList l=new LinkedList();
+LinkedList<Integer> l=new LinkedList<Integer>();
+LinkedList<Object> l=new LinkedList<Object>();
+addFrist()
+removeLast()
