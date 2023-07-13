@@ -1,0 +1,353 @@
+//print all the negative elements in the given array.
+
+import java.util.Scanner;
+class negativeElement
+  {
+    public static void main(String args[])
+    {
+      Scanner sc=new Scanner(System.in);
+      negativeElement e=new negativeElement();
+      System.out.println("enter array size :");
+      int size=sc.nextInt();
+      int array[]=new int[size];
+      for(int i=0;i<size;i++)
+        {
+          array[i]=sc.nextInt();
+        }
+      e.negative(array,size);
+    }
+      void negative(int array[],int size)
+    {
+      System.out.println("negative elements in the given array are :");
+      for(int i=0;i<size;i++)
+        {
+          if(array[i]<0)
+          {
+            System.out.println(array[i]);
+          }
+        }
+    }
+  }
+
+
+//print the second largest element in the given array
+
+import java.util.Scanner;
+class second
+  {
+    public static void main(String args[])
+    {
+      Scanner sc=new Scanner(System.in);
+      second s=new second();
+      System.out.println("enter the array size :");
+      int size=sc.nextInt();
+      int array[]=new int[size];
+      System.out.println("enter array elements :");
+      for(int i=0;i<size;i++)
+        {
+          array[i]=sc.nextInt();
+        }
+      s.secondLargest(array,size);
+    }
+    void secondLargest(int array[],int size)
+    {
+      System.out.println("the second largest element in the given array is :");
+      for(int i=0;i<size;i++)
+        {
+          for(int j=i;j<size;j++)
+            {
+              if(array[i]>array[j])
+              {
+                int temp=array[i];
+                array[i]=array[j];
+                array[j]=temp;
+              }
+            }
+        }
+      System.out.println(array[size-2]);
+    }
+  }
+
+
+//print the maximum and minimum elements in the array.
+
+import java.util.Scanner;
+class minMax
+  {
+    public static void main(String args[])
+    {
+      Scanner sc=new Scanner(System.in);
+      minMax m=new minMax();
+      System.out.println("enter array size :");
+      int size=sc.nextInt();
+      int array[]=new int[size];
+      System.out.println("enter array elements :");
+      for(int i=0;i<size;i++)
+        {
+          array[i]=sc.nextInt();
+        }
+      m.minimum(array,size);
+      m.maximum(array,size);
+    }
+    void minimum(int array[],int size)
+    {
+      System.out.println("the minimum element in the gievn array is :");
+      int min=array[0];
+      for(int i=0;i<size;i++)
+        {
+          if(array[i]<min)
+          {
+            min=array[i];
+          }
+        }
+      System.out.println(min);
+    }
+    void maximum(int array[],int size)
+    {
+      System.out.println("the maximum element in the gievn array is :");
+      int max=array[0];
+      for(int i=0;i<size;i++)
+        {
+          if(array[i]>max)
+          {
+            max=array[i];
+          }
+        }
+      System.out.println(max);
+    }
+  }
+
+
+//print the count of even and odd numbers in the given 
+array
+
+import java.util.Scanner;
+class EvenOdd
+  {
+    public static void main(String args[])
+    {
+      Scanner sc=new Scanner(System.in);
+      EvenOdd e=new EvenOdd();
+      System.out.println("enter array size :");
+      int size=sc.nextInt();
+      int array[]=new int[size];
+      System.out.println("enter array elements :");
+      for(int i=0;i<size;i++)
+        {
+          array[i]=sc.nextInt();
+        }
+      e.CountEven(array,size);
+      e.CountOdd(array,size);
+    }
+    void CountEven(int array[],int size)
+    {
+      System.out.println("count of even numbers in the given array is :");
+      int c1=0;
+      for(int i=0;i<size;i++)
+        {
+          if(array[i]%2==0)
+          {
+            c1++;
+          }
+        }
+      System.out.println(c1);
+    }
+    void CountOdd(int array[],int size)
+    {
+      System.out.println("count of odd numbers in the given array is :");
+      int c2=0;
+      for(int i=0;i<size;i++)
+        {
+          if(array[i]%2!=0)
+          {
+            c2++;
+          }
+        }
+      System.out.println(c2);
+    }
+  }
+
+
+//print the count of negative elements in the given array.
+
+import java.util.Scanner;
+class NegCount
+  {
+    public static void main(String args[])
+    {
+      Scanner sc=new Scanner(System.in);
+      negativeElement e=new negativeElement();
+      System.out.println("enter array size :");
+      int size=sc.nextInt();
+      int array[]=new int[size];
+      System.out.println("enter  array elements");
+      for(int i=0;i<size;i++)
+        {
+          array[i]=sc.nextInt();
+        }
+      e.negative(array,size);
+    }
+      void negative(int array[],int size)
+    {
+      System.out.println("the count of negative elements in the given array is :");
+      int count=0;
+      for(int i=0;i<size;i++)
+        {
+          if(array[i]<0)
+          {
+            count++;
+          }
+        }
+      System.out.println(count);
+    }
+  }
+
+
+ //Write a JAVAprogram to copy all elements from an array to another array.
+
+import java.util.Scanner;
+class Copy
+  {
+    public static void main(String args[])
+    {
+      Scanner sc=new Scanner(System.in);
+      Copy c=new Copy();
+      System.out.println("enter array size :");
+      int size=sc.nextInt();
+      System.out.println("enter array elements :");
+      int array[]=new int[size];
+      for(int i=0;i<size;i++)
+        {
+          array[i]=sc.nextInt();
+        }
+    c.copyArray(array,size);
+    }
+    void copyArray(int array[],int size)
+    {
+      System.out.println("after copying the array will be like :");
+      int array2[]=new int[size];
+      for(int i=0;i<size;i++)
+        {
+          array2[i]=array[i];
+          System.out.println(array2[i]);
+        }
+    }
+  }
+
+//delete an element at specified index.
+
+
+import java.util.*;
+class Main
+  {
+    public static void deleteElement(int arr[],int size)
+    {
+      Scanner s=new Scanner(System.in);
+      System.out.println("enter the index you want to delete:");
+     int index=s.nextInt();
+      for(int i=index;i<size-1;i++)
+        {
+          arr[i]=arr[i+1];
+        }
+      System.out.println("new Array is:");
+      for(int j=0;j<size-1;j++)
+        {
+        System.out.println(arr[j]);
+        }
+    }
+public static void main(String[] r)
+    {
+    Scanner s=new Scanner(System.in);
+    System.out.print("enter the size:");
+    int arraysize=s.nextInt();
+    int array[]=new int[arraysize];
+      System.out.print("enter the array elemnts:");
+    for(int i=0;i<array.length;i++)
+      {
+        array[i]=s.nextInt();
+      }
+    deleteElement(array,arraysize);
+    }
+}
+
+//remove duplicate characters from array
+
+import java.util.*;
+class Removeduplicatescharacters
+  {
+    public static void display(String str)
+    {
+     System.out.println("remove duplicate characters");
+      char c[]=str.toCharArray();
+       int[] count= new int[str.length()];
+        for (int i = 0; i <str.length(); i++) 
+        {
+          count[i]=1;
+          for(int j=i+1;j<str.length();j++)
+            {
+              if(c[i]==c[j])
+              {
+                count[i]++;
+                c[j]='0';
+              }
+            }
+        }
+       for(int i=0;i<=count.length-1;i++)
+       {
+         if(c[i]!='0')
+         System.out.println(c[i]);
+       }
+}
+public static void main(String[] ar)
+    {
+      Scanner s=new Scanner(System.in);
+      System.out.println("enter the string:");
+      String s1=s.nextLine();
+      display(s1);
+    }
+  }
+
+//maximum occuring character
+
+import java.util.*;
+class MaximumoccuringCharacter
+  {
+    public static void display(String str)
+    {
+     System.out.println("maximum occuring characters");
+      char c[]=str.toCharArray();
+       int[] count= new int[str.length()];
+        for (int i = 0; i <str.length(); i++) 
+        {
+          count[i]=1;
+          for(int j=i+1;j<str.length();j++)
+            {
+              if(c[i]==c[j])
+              {
+                count[i]++;
+                c[j]='0';
+              }
+            }
+        }
+      int max=count[0],c1=0;
+          for(int i=0;i<=count.length-1;i++)
+            {
+              if(count[i]>max)
+              {
+                max=count[i];
+                 c1=i;
+              }
+            }
+                System.out.println(c[c1]);
+              
+            
+        
+   }
+public static void main(String[] ar)
+    {
+      Scanner s=new Scanner(System.in);
+      System.out.println("enter the string:");
+      String s1=s.nextLine();
+      display(s1);
+    }
+  }
